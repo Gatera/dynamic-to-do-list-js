@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             //Create button to remove task
             const removeButton = document.createElement('button');
             removeButton.textContent = 'Remove';
-            removeButton.className = 'remove-btn';
+            removeButton.classList.add = 'remove-btn';
 
             //Assign onclick to remove button to remove li element from taskList
             removeButton.onclick = function() {
